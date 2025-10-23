@@ -17,7 +17,7 @@ This project was built as part of the **API Assignment** to demonstrate API inte
 
 ## 🎥 Demo / GIF
 
-Showcase your project in action here 👇
+ project in action here 👇
 
 ![Product Explorer Demo](./product-explorer2/demo.gif)
 <div align="center">
