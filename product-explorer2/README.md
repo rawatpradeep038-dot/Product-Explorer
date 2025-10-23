@@ -1,70 +1,177 @@
-# Getting Started with Create React App
+# 🛍️ Product Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+**Author:** Pradeep Singh Rawat  
+**LinkedIn:** [linkedin.com/in/pradeepsinghrawat038](https://linkedin.com/in/pradeepsinghrawat038)  
+**GitHub:** [github.com/rawatpradeep038-dot](https://github.com/rawatpradeep038-dot)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📘 Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Product Explorer** is a React-based web application that fetches product data from the [DummyJSON API](https://dummyjson.com/) and displays it in a clean, responsive, and user-friendly interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project was built as part of the **API Assignment** to demonstrate API integration, UI design, and React development skills.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎥 Demo / GIF
 
-### `npm run build`
+Showcase your project in action here 👇
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Product Explorer Demo](product-explorer2/ezgif.com-video-to-gif-converter (2).gif)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🎬 **[Watch the Demo Video](#)** *(Add your Loom / YouTube link here)*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ Core Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✅ Fetch products from DummyJSON API  
+✅ Display product list with title, image, price & rating  
+✅ Search products by name  
+✅ Filter products by category  
+✅ Show loading indicator while fetching data  
+✅ Handle API errors gracefully  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🌈 Bonus Features (Optional / Extra Credit)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🌙 Dark mode toggle  
+📄 Pagination (`?limit=10&skip=10`)  
+❤️ Add to Favorites (stored in localStorage)  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧠 Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Category | Technology |
+|----------|-----------|
+| **Frontend Framework** | React (Vite or CRA) |
+| **Styling** | CSS / TailwindCSS |
+| **API** | DummyJSON API |
+| **State Management** | React Hooks / Context API |
+| **Deployment** | GitHub Pages / Netlify / Vercel |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧩 Project Structure
 
-### Analyzing the Bundle Size
+```
+src/
+├── App.js
+├── App.css
+├── index.js
+└── components/
+    ├── SearchBar.js
+    ├── CategoryFilter.js
+    ├── ProductList.js
+    └── ProductItem.js
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ⚙️ API Endpoints Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+| Purpose | Endpoint |
+|---------|----------|
+| All products | `https://dummyjson.com/products` |
+| Search products | `https://dummyjson.com/products/search?q=phone` |
+| Categories list | `https://dummyjson.com/products/categories` |
+| Products by category | `https://dummyjson.com/products/category/laptops` |
+| Pagination | `https://dummyjson.com/products?limit=10&skip=20` |
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🚀 Getting Started
 
-### Deployment
+### 1️⃣ Clone the Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+git clone https://github.com/rawatpradeep038-dot/Product-Explorer.git
+cd Product-Explorer
+```
 
-### `npm run build` fails to minify
+### 2️⃣ Install Dependencies
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+```
+
+### 3️⃣ Run the App
+
+For **Vite**:
+```bash
+npm run dev
+```
+
+For **Create React App**:
+```bash
+npm start
+```
+
+### 4️⃣ Open in Browser
+
+Visit `http://localhost:5173/` (Vite) or `http://localhost:3000/` (CRA)
+
+---
+
+## 🧭 Future Improvements
+
+- [ ] Add category-based product sorting
+- [ ] Integrate cart & checkout system
+- [ ] Add user authentication
+- [ ] Improve accessibility and ARIA support
+- [ ] Deploy with continuous integration
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork this repo
+2. Create your branch:
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Added YourFeature"
+   ```
+4. Push & open a Pull Request
+
+---
+
+## 📩 Submission Info (Assignment)
+
+**Submitted To:** aman.k.sharma@cepialabs.in
+
+**Deliverables:**
+- GitHub Repository Link
+- Live Demo Link (or screen recording video)
+
+**Evaluation Criteria:**
+- API integration (fetch, search, filters working)
+- Clean & responsive UI
+- Code quality & folder structure
+- Hosting / Demo availability
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute with proper credit.
+
+---
+
+## 💫 Developed by Pradeep Singh Rawat
+
+If you like this project, don't forget to ⭐ it on GitHub!
+
+---
+
+**Live Demo:** [Add your deployment link here]  
+**Repository:** [github.com/rawatpradeep038-dot/Product-Explorer](https://github.com/rawatpradeep038-dot/Product-Explorer)
