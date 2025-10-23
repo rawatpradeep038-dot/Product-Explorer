@@ -19,7 +19,7 @@ This project was built as part of the **API Assignment** to demonstrate API inte
 
 Showcase your project in action here 👇
 
-![Product Explorer Demo](product-explorer2/ezgif.com-video-to-gif-converter (2).gif)
+![Product Explorer Demo](./product-explorer2/demo.gif)
 
 🎬 **[Watch the Demo Video](#)** *(Add your Loom / YouTube link here)*
 
