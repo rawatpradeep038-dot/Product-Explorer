@@ -33,13 +33,6 @@ project in action here 👇
 ✅ Show loading indicator while fetching data  
 ✅ Handle API errors gracefully  
 
----
-
-## 🌈 Bonus Features (Optional / Extra Credit)
-
-🌙 Dark mode toggle  
-📄 Pagination (`?limit=10&skip=10`)  
-❤️ Add to Favorites (stored in localStorage)  
 
 ---
 
@@ -47,8 +40,8 @@ project in action here 👇
 
 | Category | Technology |
 |----------|-----------|
-| **Frontend Framework** | React (Vite or CRA) |
-| **Styling** | CSS / TailwindCSS |
+| **Frontend Framework** | React  |
+| **Styling** | CSS  |
 | **API** | DummyJSON API |
 | **State Management** | React Hooks / Context API |
 
