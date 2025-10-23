@@ -20,10 +20,9 @@ This project was built as part of the **API Assignment** to demonstrate API inte
 Showcase your project in action here 👇
 
 ![Product Explorer Demo](./product-explorer2/demo.gif)
-
-🎬 **[Watch the Demo Video](#)** *(Add your Loom / YouTube link here)*
-
----
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rawatpradeep038-dot/Product-Explorer/main/product-explorer2/ezgif.com-video-to-gif-converter%20(2).gif" alt="Product Explorer Demo" width="800"/>
+</div>
 
 ## ✨ Core Features
 
