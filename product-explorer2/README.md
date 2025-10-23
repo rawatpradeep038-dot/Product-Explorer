@@ -51,7 +51,7 @@ Showcase your project in action here 👇
 | **Styling** | CSS / TailwindCSS |
 | **API** | DummyJSON API |
 | **State Management** | React Hooks / Context API |
-| **Deployment** | GitHub Pages / Netlify / Vercel |
+
 
 ---
 
@@ -172,5 +172,4 @@ If you like this project, don't forget to ⭐ it on GitHub!
 
 ---
 
-**Live Demo:** [Add your deployment link here]  
 **Repository:** [github.com/rawatpradeep038-dot/Product-Explorer](https://github.com/rawatpradeep038-dot/Product-Explorer)
